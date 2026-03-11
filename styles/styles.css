@@ -38,6 +38,10 @@ body, html {
     box-shadow: 0px 4px 15px var(--ferrari-red);
 }
 
+.border-ferrari {
+    border: 1px solid var(--ferrari-red);
+}
+
 .border-top-ferrari {
     border-top: 2px solid var(--ferrari-red);
 }
