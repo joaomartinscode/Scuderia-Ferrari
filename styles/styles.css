@@ -1,0 +1,93 @@
+:root {
+    --ferrari-red: #EF1A2D;
+    --ferrari-yellow: #FFEB00;
+    --dark-bg: #181818;
+    --card-bg: #2c2c2c;
+    --text-white: #ffffff;
+    --text-muted: #a0a0a0;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.bg-custom-dark {
+    background-color: var(--dark-bg);
+}
+
+.bg-custom-grey {
+    background-color: var(--card-bg);
+}
+
+.bg-ferrari {
+    background-color: var(--ferrari-red);
+}
+
+.text-ferrari {
+    color: var(--ferrari-red);
+}
+
+.font-custom {
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.navbar {
+    border-bottom: var(--ferrari-red) 3px solid;
+    box-shadow: 0px 4px 15px var(--ferrari-red);
+}
+
+.border-top-ferrari {
+    border-top: 2px solid var(--ferrari-red);
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.navbar-collapse {
+    background-color: var(--dark-bg);
+    font-family: "Arial Black", Gadget, sans-serif;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+.nav-link:hover, .navbar-brand:hover {
+    color: var(--ferrari-yellow);
+}
+
+.hero-img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(0.6);
+}
+
+.btn-hero, .btn-section {
+    color: white;
+    border: 2px solid darkred;
+}
+
+.btn-hero:hover {
+    background-color: white;
+    color: var(--ferrari-red);
+}
+
+.btn-section:hover {
+    background-color: darkred;
+    color: white;
+    border-color: var(--ferrari-red);
+}
+
+.card-img-fixed {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
