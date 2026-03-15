@@ -44,110 +44,51 @@
     </header>
     <main>
         <section id="hero" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#hero" data-bs-slide-to="0" class="active"></button>
-            <button type="button" data-bs-target="#hero" data-bs-slide-to="1"></button>
-            <button type="button" data-bs-target="#hero" data-bs-slide-to="2"></button>
-        </div>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#hero" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#hero" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#hero" data-bs-slide-to="2"></button>
+            </div>
 
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="5000">
-                <img src="images/ferrariHero1.jpg" class="hero-img" alt="Ferrari 1">
-                <div class="carousel-caption d-flex flex-column align-items-start justify-content-center h-75 text-start">
-                    <div class="container">
-                        <h1 class="display-3 fw-bold mb-2 hero-title">Scuderia Ferrari</h1>
-                        <h2 class="display-6 text-uppercase fw-light mb-5 hero-subtitle">A excelência e tradição da Fórmula 1</h2>
-                        <a href="#about" class="btn rounded-pill bg-ferrari font-custom btn-hero">Saber mais</a>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="5000">
-                <img src="images/ferrariHero2.jpg" class="hero-img" alt="Ferrari 2">
-                <div class="carousel-caption d-flex flex-column align-items-start justify-content-center h-75 text-start">
-                    <div class="container">
-                        <h1 class="display-3 fw-bold mb-2 hero-title">Inovação SF-26</h1>
-                        <h2 class="display-6 text-uppercase fw-light mb-5 hero-subtitle">A engenharia no limite da velocidade</h2>
-                        <a href="#destaques" class="btn rounded-pill bg-ferrari font-custom btn-hero">Ver o Carro</a>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="5000">
-                <img src="images/ferrariHero3.jpg" class="hero-img" alt="Ferrari 3">
-                <div class="carousel-caption d-flex flex-column align-items-start justify-content-center h-75 text-start">
-                    <div class="container">
-                        <h1 class="display-3 fw-bold mb-2 hero-title">ADN de Vencedor</h1>
-                        <h2 class="display-6 text-uppercase fw-light mb-5 hero-subtitle">Uma nova era com Leclerc e Hamilton</h2>
-                        <a href="pages/equipa.html" class="btn rounded-pill bg-ferrari font-custom btn-hero">Conhecer a Equipa</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <button class="carousel-control-prev" type="button" data-bs-target="#hero" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon mt-5"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#hero" data-bs-slide="next">
-            <span class="carousel-control-next-icon mt-5"></span>
-        </button>
-    </section>
-        <section id="about">
-            <div class="container-fluid text-center bg-custom-dark py-5">
-                <h3 class="text-uppercase fw-bold text-white">Sobre</h3>
-            </div>
-            <div class="container-fluid">
-                <div class="row g-0 align-items-center">
-                    <div class="col-lg-6 p-5">
-                        <img src="images/museu.jpg" alt="Ferrari About" class="img-fluid rounded-4">
-                    </div>
-                    <div class="col-lg-6 p-5">
-                        <div class="px-lg-5">
-                        <h2 class="display-5 fw-bold mb-4 font-custom">A NOSSA PAIXÃO</h2>
-                        <p class="lead text-muted">A Scuderia Ferrari não é apenas uma equipa de Fórmula 1.<br> É um símbolo de excelência italiana, inovação tecnológica e uma história escrita com vitórias inesquecíveis.</p>
-                        <p class="text-muted">Desde 1929, o Cavallino Rampante representa o sonho de Enzo Ferrari.<br>Construir os carros mais rápidos e belos do mundo.</p>
-                        <a href="historia.html" class="btn btn-section rounded-pill bg-ferrari font-custom mt-4">Conhecer a História</a>
+            <div class="carousel-inner">
+                <article class="carousel-item active" data-bs-interval="5000">
+                    <img src="images/ferrariHero1.jpg" class="hero-img d-block w-100" alt="Scuderia Ferrari em pista">
+                    <div class="carousel-caption d-flex align-items-center h-75 text-start">
+                        <div class="container">
+                            <h1 class="display-3 fw-bold mb-2 hero-title">Scuderia Ferrari</h1>
+                            <p class="display-6 text-uppercase fw-light mb-5 hero-subtitle">A excelência e tradição da Fórmula 1</p>
+                            <a href="#about" class="btn rounded-pill bg-ferrari font-custom btn-hero">Saber mais</a>
                         </div>
                     </div>
+                </article>
                 </div>
-            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#hero" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#hero" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
         </section>
-        <section id="destaques" class="py-5 bg-custom-grey">
-            <div class="container-fluid text-center mb-5">
-                <h3 class="text-uppercase fw-bold text-white">Equipa e Engenharia</h3>
-            </div>
-            <div class="container">
-                <div class="row g-4">
-                    <div class="col-md-4">
-                        <div class="card border-0 rounded-4 overflow-hidden">
-                            <img src="images/leclerc.png" class="card-img-top card-img-fixed " alt="Charles Leclerc">
-                            <div class="card-body text-center p-4">
-                                <h4 class="font-custom fw-bold">Charles Leclerc</h4>
-                                <p class="text-muted small">Referência da Academia Ferrari</p>
-                                <a href="pages/equipa.html#CharlesLeclerc" class="btn btn-section bg-ferrari btn-sm rounded-pill mt-2">Ver Perfil</a>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="col-md-4">
-                        <div class="card border-0 rounded-4 overflow-hidden">
-                            <img src="images/hamilton.png" class="card-img-top card-img-fixed " alt="Lewis Hamilton">
-                            <div class="card-body text-center p-4">
-                                <h4 class="font-custom fw-bold">Lewis Hamilton</h4>
-                                <p class="text-muted small">Heptacampeão Mundial</p>
-                                <a href="pages/equipa.html#LewisHamilton" class="btn btn-section bg-ferrari btn-sm rounded-pill mt-2">Ver Perfil</a>
-                            </div>
-                        </div>
-                    </div>
+        <section id="about" class="py-0">
+            <header class="bg-custom-dark py-5 text-center">
+                <h3 class="text-uppercase fw-bold text-white m-0">Sobre</h3>
+            </header>
 
-                    <div class="col-md-4">
-                        <div class="card border-0 rounded-4 overflow-hidden">
-                            <img src="images/carro.jpg" class="card-img-top card-img-fixed" alt="SF-26">
-                            <div class="card-body text-center p-4">
-                                <h4 class="font-custom fw-bold">SF-26</h4>
-                                <p class="text-muted small">Engenharia e Performance</p>
-                                <a href="pages/equipa.html#carro" class="btn btn-section bg-ferrari btn-sm rounded-pill mt-2">Ver Detalhes</a>
-                            </div>
-                        </div>
-                    </div>
+            <div class="container-fluid px-0">
+                <div class="row g-0 align-items-center">
+                    <figure class="col-lg-6 mb-0 p-5">
+                        <img src="images/museu.jpg" alt="Museu Ferrari" class="img-fluid rounded-4 shadow">
+                    </figure>
+                    <article class="col-lg-6 p-5 px-lg-5">
+                        <h2 class="display-5 fw-bold mb-4 font-custom">A NOSSA PAIXÃO</h2>
+                        <p class="lead text-muted">A Scuderia Ferrari não é apenas uma equipa...</p>
+                        <p class="text-muted">Desde 1929, o Cavallino Rampante representa o sonho de Enzo Ferrari.</p>
+                        <a href="historia.html" class="btn btn-section rounded-pill bg-ferrari font-custom mt-4">Conhecer a História</a>
+                    </article>
                 </div>
             </div>
         </section>
