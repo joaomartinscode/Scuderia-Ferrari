@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../styles/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Contacto - Scuderia Ferrari</title>
+    <link class="logo" rel="icon" href="../images/ferrarilogo2.png" type="image/png">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-custom-dark font-custom h-5">
+        <div class="container-fluid position-relative d-flex align-items-start align-items-lg-center">
+
+            <a class="navbar-brand text-uppercase d-none d-lg-block" href="../index.html">Scuderia Ferrari</a>
+
+            <div class="position-absolute start-50 translate-middle-x mt-2 mt-lg-0">
+                <img src="../images/ferrarilogo.svg" alt="Ferrari Logo" class="logo">
+            </div>
+
+            <button class="navbar-toggler mt-2 mt-lg-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarLinks">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse w-100" id="navbarLinks">
+                <ul class="navbar-nav ms-auto pt-2 pt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./equipa.html">Equipa/Engenharia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./historia.html">História</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main class="mt-5 pt-4">
+    <section id="contactos" class="py-5 min-vh-100 d-flex align-items-center bg-custom-grey">
+        <div class="container">
+            <header class="text-center mb-5">
+                <h2 class="fw-bold text-uppercase tracking-wider text-white">Contacto</h2>
+                    <p class="text-white">Tens alguma dúvida ou queres entrar em contacto com a Scuderia?</p>
+            </header>
+
+            <div class="row g-5 justify-content-center align-items-stretch">
+                <div class="col-md-6 col-lg-5">
+                    <form class="h-100 d-flex flex-column bg-custom-dark p-4 rounded-4 shadow border-ferrari">
+                        <div class="mb-3">
+                            <label for="email" class="form-label small fw-bold text-white text-uppercase">Email</label>
+                            <input type="email" class="form-control bg-dark text-white border-secondary p-3 custom-input" id="email" placeholder="nome@exemplo.com" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="mensagem" class="form-label small fw-bold text-white text-uppercase">Mensagem</label>
+                            <textarea class="form-control bg-dark text-white border-secondary p-3 custom-input" id="mensagem" rows="5" placeholder="Como podemos ajudar?" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn bg-ferrari text-white w-100 py-3 fw-bold shadow mb-4 text-uppercase spec-btn">
+                            Enviar Mensagem
+                        </button>
+
+                        <div class="text-center mt-auto pt-3 border-top border-secondary">
+                            <p class="small text-uppercase fw-bold text-white mb-2">Siga a Scuderia</p>
+                            <div class="d-flex justify-content-center gap-4">
+                                <a href="https://www.facebook.com/ScuderiaFerrari/?locale=pt_BR" target="_blank" class="text-white fs-4"><i class="bi bi-facebook"></i></a>
+                                <a href="https://www.instagram.com/scuderiaferrari/?hl=pt" target="_blank" class="text-white fs-4"><i class="bi bi-instagram"></i></a>
+                                <a href="https://it.linkedin.com/showcase/scuderiaferrarihp/" target="_blank" class="text-white fs-4"><i class="bi bi-linkedin"></i></a>
+                                <a href="https://x.com/ScuderiaFerrari" target="_blank" class="text-white fs-4"><i class="bi bi-twitter-x"></i></a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-md-6 col-lg-5">
+                    <div class="h-100 rounded-4 overflow-hidden shadow border-ferrari d-flex flex-column">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2844.183963337198!2d10.862656999999997!3d44.5318657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fe309db495895%3A0x6b691796ffd024f1!2sScuderia%20Ferrari!5e0!3m2!1spt-PT!2spt!4v1779650358620!5m2!1spt-PT!2spt"
+                            width="100%"
+                            height="100%"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="bg-custom-dark py-4 border-top-ferrari">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+                <img src="../images/ferrarilogo.svg" alt="Ferrari Logo" style="height: 30px;" class="me-2">
+                <span class="font-custom fw-bold text-white">SCUDERIA FERRARI</span>
+            </div>
+
+            <div class="col-md-4 text-center mb-3 mb-md-0">
+                <a href="../index.html" class="text-white text-decoration-none mx-2">Home</a>
+                <a href="equipa.html" class="text-white text-decoration-none mx-2">Equipa/Engenharia</a>
+                <a href="historia.html" class="text-white text-decoration-none mx-2">História</a>
+            </div>
+
+            <div class="col-md-4 text-center text-md-end">
+                <p class="text-white mb-0">Realizado por: <span class="fw-bold">João Martins</span></p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
